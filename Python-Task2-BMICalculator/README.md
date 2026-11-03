@@ -1,41 +1,60 @@
-# Python-Task2-BMICalculator
+# BMI Calculator — Python Task 2
 
-**Oasis Infobyte Internship — Task 2**
+## Oasis Infobyte Internship
 
-## Project Description
-A simple BMI (Body Mass Index) Calculator built using Python. It calculates BMI using the user's weight in kilograms and height in meters.
+A simple BMI (Body Mass Index) Calculator developed using Python. The program takes the user's weight in kilograms and height in meters, calculates BMI, and displays the corresponding BMI category.
 
 ## Features
-- Accepts weight and height as input
-- Validates numeric inputs
-- Handles zero and negative values
-- Calculates BMI and rounds it to two decimal places
-- Displays a BMI category
 
-## Technologies Used
-- Python
-- `if-elif-else` statements
-- `while` loop
-- Exception handling
+- Accepts weight in kilograms (kg).
+- Accepts height in meters (m).
+- Validates numeric input.
+- Rejects zero or negative weight and height.
+- Calculates BMI and rounds the result to two decimal places.
+- Displays the BMI category.
 
 ## BMI Formula
-BMI = Weight (kg) / Height (m)²
+
+BMI = Weight (kg) / (Height (m) × Height (m))
+
+## BMI Categories
+
+- Below 18.5: Underweight
+- 18.5 to below 25: Normal
+- 25 to below 30: Overweight
+- 30 and above: Obese
+
+*These are general adult BMI screening categories, not a complete health assessment.*
+
+## Requirements
+
+- Python 3
+- No external libraries required
 
 ## How to Run
-1. Install Python.
-2. Open the project folder in VS Code.
-3. Run the Python file:
+
+1. Open the project folder in VS Code.
+2. Open the terminal.
+3. Run the following command:
 
 ```bash
-python bmi_calculator.py
+python main.py
 ```
 
-Replace `bmi_calculator.py` with your actual Python filename if it is different.
+4. Enter your weight in kilograms.
+5. Enter your height in meters.
+6. View your calculated BMI and category.
 
-## Output
-The program displays the calculated BMI value and its category in the terminal.
+## Project Files
 
-**Note:** The displayed BMI categories are intended for adults and are for educational purposes.
+- `main.py` — Python source code.
+- `README.md` — Project documentation.
+- Output screenshot — Example of the program running.
 
 ## Author
+
 Kunchala Rakshitha
+
+## Internship
+
+Oasis Infobyte — Python Programming Internship, Task 2
