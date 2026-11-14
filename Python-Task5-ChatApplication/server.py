@@ -8,6 +8,7 @@ HOST = "0.0.0.0"
 PORT = 5000
 clients = {}
 clients_lock = threading.Lock()
+send_lock = threading.Lock()
 
 
 def timestamp():
@@ -16,7 +17,8 @@ def timestamp():
 
 def send_json(client_socket, payload):
     data = (json.dumps(payload, ensure_ascii=False) + "\n").encode("utf-8")
-    client_socket.sendall(data)
+    with send_lock:
+        client_socket.sendall(data)
 
 
 def broadcast(payload, exclude=None):
