@@ -18,6 +18,11 @@ A Python application that generates random passwords based on user-selected crit
 ### 4. Basic Weather App
 A weather application that fetches weather information using a weather API.
 
+### 5. Real-Time Chat Application
+A multi-client chat application built with Python TCP sockets and threading. Users can connect to a server and exchange messages in real time.
+
+See [Python-Task5-ChatApplication](Python-Task5-ChatApplication/) for setup instructions and source code.
+
 ## Additional Project
 
 ### Chatbot
@@ -26,6 +31,7 @@ An interactive chatbot built using Python, Streamlit, and Groq API. This is list
 ## Technologies Used
 
 - Python
+- TCP Sockets and Threading
 - Streamlit
 - Groq API
 - Requests
