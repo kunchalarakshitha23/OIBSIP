@@ -1,6 +1,6 @@
-# Python-Task1-PasswordGenerator
+# Python-Task3-PasswordGenerator
 
-**Oasis Infobyte Internship — Task 1**
+**Oasis Infobyte Internship — Task 3**
 
 A simple and customizable Random Password Generator built using Python.
 

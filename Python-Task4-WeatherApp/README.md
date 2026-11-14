@@ -1,6 +1,6 @@
-# Python-Task3-WeatherApp
+# Python-Task4-WeatherApp
 
-**Oasis Infobyte Internship — Task 3**
+**Oasis Infobyte Internship — Task 4**
 
 ## Project Description
 This is a Python-based Weather App that retrieves current weather information for a city using the OpenWeatherMap API.

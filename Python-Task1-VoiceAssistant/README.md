@@ -1,4 +1,6 @@
-# Voice Assistant – Python Task 5
+# Voice Assistant – Python Task 1
+
+**Oasis Infobyte Internship — Task 1**
 
 ## About
 This project is a simple voice assistant developed using Python as part of the Oasis Infobyte Python Internship. It listens to voice commands, processes them, and responds using speech.
@@ -59,4 +61,4 @@ python voice_assistant.py
 ## Author
 Kunchala Rakshitha
 
-Oasis Infobyte Python Internship – Task 5
+Oasis Infobyte Python Internship – Task 1
